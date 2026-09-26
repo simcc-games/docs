@@ -1,6 +1,7 @@
 # SIMCC game documentation
 
 Rulebooks, tournament references, changelogs and open questions for SIMCC games.
+Read them as a website at https://simcc-games.github.io/docs/.
 
 > This repository is generated. Do not edit it here: changes are made in the SIMCC platform
 > repository and published automatically. Pull requests here will be overwritten.
