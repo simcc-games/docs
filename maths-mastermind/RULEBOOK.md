@@ -1,7 +1,7 @@
 <!--
 locale: en
-rules-version: 2026.07.31
-last-reviewed: 2026-07-31
+rules-version: 2026.09.29
+last-reviewed: 2026-09-29
 document-status: current-implementation
 -->
 
@@ -15,8 +15,9 @@ Build an expression that equals the target exactly.
 A card contains:
 
 - four number slots;
-- one target from 0 to 99 on Easy and Medium, or 1 to 99 on Hard; and
-- a difficulty: Easy, Medium or Hard.
+- one target: generated cards run from 0 to 99 on Lower and Middle Division, or 1 to 99 on Upper
+  Division, and printed cards may go higher; and
+- a division: Lower, Middle or Upper.
 
 Repeated values occupy separate slots. Two slots that both show `1/3` are two usable numbers, not
 one number printed twice by mistake.
@@ -40,13 +41,17 @@ Answers use exact rational arithmetic. Fractions are not converted to rounded de
 Your final value must equal the target exactly. A complete wrong answer stays open so you can undo,
 clear or revise it and try again.
 
-## 4. Difficulty
+## 4. Divisions
 
-- **Easy:** whole-number cards and whole-number targets.
-- **Medium:** may include one fraction; targets are usually whole numbers.
-- **Hard:** includes one or two fractions and excludes a zero target.
+- **Lower Division:** whole-number cards and whole-number targets.
+- **Middle Division:** may include one fraction; targets are usually whole numbers.
+- **Upper Division:** includes one or two fractions and excludes a zero target.
 
 Every generated card carries a verified solution. Other valid solutions may exist and are accepted.
+
+The printed Upper Division Team (UDT) cards are also played as a fixed deck, in their printed
+order. They use whole numbers, and their targets may be above 99. Each has its printed answer on
+the back; other valid answers are accepted.
 
 ## 5. Controls
 

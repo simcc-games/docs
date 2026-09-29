@@ -7,15 +7,18 @@ document-status: current-implementation
 
 # Maths Mastermind — Rules Changelog
 
-## 2026.09.29 — The UD Team deck
+## 2026.09.29 — Divisions and the UD Team deck
 
-- Added SIMCC's printed UD Team cards as a fixed deck ("UDT cards" on the solo board). The rules
-  are unchanged: use at least two of the four numbers, each once.
+- Renamed the levels as SIMCC names them: Easy is now Lower Division, Medium is Middle Division
+  and Hard is Upper Division. The cards and rules at each level are unchanged.
+- Every card is now drawn in the printed card design.
+- Added SIMCC's printed Upper Division Team (UDT) cards as a fixed deck ("UDT cards" on the solo
+  board). The rules are unchanged: use at least two of the four numbers, each once.
 - Each deck card keeps its printed number, layout (top, right, bottom, left) and answer. The board
   shows the card as printed and turns it over to the answer once it is solved or revealed.
 - 19 of the 20 sample cards are in the deck. UDT 5 is left out: its printed answer, (3+5)×8−2,
   uses a 2 that is not on the card (3, 4, 5, 8), and no two or more of those numbers make 62.
-- Deck results are checked on the server against the deck, and rated as medium cards.
+- Deck results are checked on the server against the deck, and rated as Upper Division cards.
 
 ## 2026.07.31 — Shared-module release
 

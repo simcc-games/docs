@@ -22,5 +22,5 @@ The current solo mode does not award additional credit for finding alternatives.
 
 ## 3. Should generated fractions be restricted further?
 
-Hard cards use exact reduced fractions with denominators up to 12. No source establishes whether an
+Upper Division cards use exact reduced fractions with denominators up to 12. No source establishes whether an
 official competition would allow the full generated range.
